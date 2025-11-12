@@ -28,7 +28,7 @@ if __name__== "__main__":
         print("Time in years:", t)
         # Calculate and display the result
         interest = calculate_simple_interest(p, r, t)
-        print(f"\nThe Simple Interest ={  interest :.2f}")
+        print(f"\nThe Simple Interest = {  interest :.2f}")
 
     except ValueError:
         print("Error: Please enter valid numeric values.")
